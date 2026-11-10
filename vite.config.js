@@ -20,7 +20,7 @@ export default defineConfig({
         rolldownOptions: {
             input: {
                 accueil: resolve(racine, 'index.html'),
-                // la page projets.html sera ajoutée ici à la mission suivante
+                projets: resolve(racine, 'projets.html'),
             },
         },
     },
