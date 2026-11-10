@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CRETE Romain - Portfolio</title>
+
+        <link rel="stylesheet" href="./src/style.css" />
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    </head>
+    <body class="bg-fond text-encre font-sans min-h-screen flex flex-col">
+        <a
+            href="#contenu"
+            class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-20 focus:px-4 focus:py-2 focus:rounded-lg focus:bg-fond focus:text-primaire"
+        >
+            Aller au contenu
+        </a>
+
+        <!-- ===== HEADER ===== -->
+        <header class="bg-fond border-b border-surface sticky top-0 z-50">
+            <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+                <a
+                    href="index.html"
+                    class="font-titre font-bold text-encre hover:text-primaire transition-colors"
+                >
+                    CRETE Romain
+                </a>
+
+                <details class="group md:hidden relative">
+                    <summary
+                        class="list-none [&::-webkit-details-marker]:hidden flex items-center gap-2 min-h-11 px-4 rounded-lg border border-primaire text-primaire font-titre cursor-pointer hover:bg-primaire/5 transition-colors"
+                    >
+                        <span aria-hidden="true" class="group-open:hidden">☰</span>
+                        <span aria-hidden="true" class="hidden group-open:inline">✕</span>
+                        Menu
+                    </summary>
+                    <nav
+                        aria-label="Navigation principale"
+                        class="absolute right-0 top-full mt-2 w-48 z-10 bg-surface border border-encre-douce/20 rounded-carte shadow-lg p-2"
+                    >
+                        <ul class="flex flex-col gap-1 font-sans font-medium">
+                            <li>
+                                <a
+                                    href="index.html"
+                                    class="block px-3 py-2 rounded-lg bg-primaire-clair/30 text-primaire font-semibold"
+                                    >Accueil</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="projets.html"
+                                    class="block px-3 py-2 rounded-lg text-encre-douce hover:text-encre hover:bg-primaire-clair/20 transition-colors"
+                                    >Projets</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="contact.html"
+                                    class="block px-3 py-2 rounded-lg text-encre-douce hover:text-encre hover:bg-primaire-clair/20 transition-colors"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </details>
+
+                <!-- Navigation Desktop -->
+                <nav aria-label="Navigation principale" class="hidden md:block">
+                    <ul class="flex items-center gap-6 font-sans font-medium">
+                        <li>
+                            <a
+                                href="index.html"
+                                class="text-primaire font-semibold underline underline-offset-8 decoration-2"
+                                >Accueil</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="projets.html"
+                                class="text-encre-douce hover:text-primaire transition-colors"
+                                >Projets</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="contact.html"
+                                class="text-encre-douce hover:text-primaire transition-colors"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- ===== MAIN ===== -->
+        <main id="contenu" class="flex-1">
+            <h1 class="mt-6 font-titre text-3xl md:text-5xl font-bold text-encre">Mes projets</h1>
+            <p class="mt-2 font-titre text-xl font-semibold text-primaire">
+                Les projets seront bientôt en ligne
+            </p>
+        </main>
+
+        <!-- ===== FOOTER ===== -->
+        <footer class="bg-surface border-t border-encre-douce/15 py-8 mt-auto">
+            <div
+                class="max-w-6xl mx-auto px-4 md:px-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left"
+            >
+                <div class="flex flex-col gap-1">
+                    <p class="font-titre font-bold text-encre">© 2026 CRÉTÉ Romain</p>
+                    <p class="font-sans text-sm text-encre-douce">
+                        Concepteur Développeur d'Applications en formation
+                    </p>
+                </div>
+                <div
+                    class="flex items-center justify-center flex-wrap gap-8 font-sans text-sm font-medium"
+                >
+                    <a
+                        href="https://github.com/Romain-CRETE"
+                        target="_blank"
+                        class="text-encre-douce hover:text-primaire transition-colors py-2 px-1"
+                        >GitHub</a
+                    >
+                    <a
+                        href="https://www.linkedin.com/in/romain-cr%C3%A9t%C3%A9"
+                        target="_blank"
+                        class="text-encre-douce hover:text-primaire transition-colors py-2 px-1"
+                        >LinkedIn</a
+                    >
+                    <a
+                        href="mailto:faux_mail@outlook.fr"
+                        class="text-encre-douce hover:text-primaire transition-colors py-2 px-1"
+                        >Email</a
+                    >
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
