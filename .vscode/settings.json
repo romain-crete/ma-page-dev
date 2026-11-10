@@ -1,0 +1,8 @@
+{
+  "editor.rulers": [100],
+  "files.insertFinalNewline": true,
+  "editor.fontSize": 14,
+  "workbench.colorTheme": "Dark+",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+}

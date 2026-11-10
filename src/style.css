@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-primaire: #6d28d9;
+    --color-primaire-survol: #5b21b6;
+    --color-primaire-clair: #ede9fe;
+    --color-secondaire: #1e123b;
+    --color-fond: #ffffff;
+    --color-surface: #f8fafc;
+    --color-encre: #0f172a;
+    --color-encre-douce: #475569;
+    --color-succes: #15803d;
+    --color-erreur: #b91c1c;
+
+    --font-titre: 'Plus Jakarta Sans', sans-serif;
+    --font-sans: 'Inter', sans-serif;
+
+    --radius-bouton: 0.5rem;
+    --radius-carte: 1rem;
+}

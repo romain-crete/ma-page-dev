@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CRETE Romain - Portfolio</title>
+
+        <link rel="stylesheet" href="./src/style.css" />
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    </head>
+    <body class="bg-fond text-encre font-sans min-h-screen flex flex-col">
+        <a
+            href="#contenu"
+            class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-20 focus:px-4 focus:py-2 focus:rounded-lg focus:bg-fond focus:text-primaire"
+        >
+            Aller au contenu
+        </a>
+
+        <!-- ===== HEADER ===== -->
+        <header class="bg-fond border-b border-surface sticky top-0 z-50">
+            <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+                <a
+                    href="index.html"
+                    class="font-titre font-bold text-encre hover:text-primaire transition-colors"
+                >
+                    CRETE Romain
+                </a>
+
+                <details class="group md:hidden relative">
+                    <summary
+                        class="list-none [&::-webkit-details-marker]:hidden flex items-center gap-2 min-h-11 px-4 rounded-lg border border-primaire text-primaire font-titre cursor-pointer hover:bg-primaire/5 transition-colors"
+                    >
+                        <span aria-hidden="true" class="group-open:hidden">☰</span>
+                        <span aria-hidden="true" class="hidden group-open:inline">✕</span>
+                        Menu
+                    </summary>
+                    <nav
+                        aria-label="Navigation principale"
+                        class="absolute right-0 top-full mt-2 w-48 z-10 bg-surface border border-encre-douce/20 rounded-carte shadow-lg p-2"
+                    >
+                        <ul class="flex flex-col gap-1 font-sans font-medium">
+                            <li>
+                                <a
+                                    href="index.html"
+                                    class="block px-3 py-2 rounded-lg bg-primaire-clair/30 text-primaire font-semibold"
+                                    >Accueil</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="projets.html"
+                                    class="block px-3 py-2 rounded-lg text-encre-douce hover:text-encre hover:bg-primaire-clair/20 transition-colors"
+                                    >Projets</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="contact.html"
+                                    class="block px-3 py-2 rounded-lg text-encre-douce hover:text-encre hover:bg-primaire-clair/20 transition-colors"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </details>
+
+                <!-- Navigation Desktop -->
+                <nav aria-label="Navigation principale" class="hidden md:block">
+                    <ul class="flex items-center gap-6 font-sans font-medium">
+                        <li>
+                            <a
+                                href="index.html"
+                                class="text-primaire font-semibold underline underline-offset-8 decoration-2"
+                                >Accueil</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="projets.html"
+                                class="text-encre-douce hover:text-primaire transition-colors"
+                                >Projets</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="contact.html"
+                                class="text-encre-douce hover:text-primaire transition-colors"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- ===== MAIN ===== -->
+        <main id="contenu" class="flex-1">
+            <!-- HERO -->
+            <section class="bg-surface py-12 md:py-16 border-b border-surface">
+                <div class="max-w-4xl mx-auto px-4 text-center">
+                    <img
+                        class="size-48 mx-auto rounded-full object-cover border-4 border-primaire shadow-md"
+                        src="img/photo-profil.jpg"
+                        alt="Photo de Romain Crété travaillant devant un ordinateur"
+                        width="200"
+                        height="200"
+                    />
+                    <h1 class="mt-6 font-titre text-3xl md:text-5xl font-bold text-encre">
+                        CRETE Romain
+                    </h1>
+                    <p class="mt-2 font-titre text-xl font-semibold text-primaire">
+                        De la précision mécanique au développement web
+                    </p>
+                    <p class="mt-4 max-w-2xl mx-auto text-lg leading-relaxed text-encre-douce">
+                        Futur développeur web full-stack, passionné par la création de sites et le
+                        montage vidéo.
+                    </p>
+
+                    <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+                        <a href="projets.html" class="btn btn-primaire">Voir mes projets</a>
+                        <a href="contact.html" class="btn btn-secondaire">Me contacter</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- A PROPOS -->
+            <section id="a-propos" class="py-12 md:py-16 bg-fond">
+                <div class="max-w-4xl mx-auto px-4">
+                    <h2 class="font-titre text-2xl md:text-3xl font-bold text-encre mb-6">
+                        À propos de moi
+                    </h2>
+                    <div class="space-y-4 leading-relaxed text-encre-douce">
+                        <p>
+                            En reconversion vers le développement web, j’ai pour objectif de
+                            travailler sur des projets à la fois créatifs et techniques. Je conçois
+                            des sites web dans le cadre de ma formation, aussi bien pour moi-même
+                            que pour des proches, des particuliers et des micro-entreprises.
+                        </p>
+                        <p>
+                            J’ai également participé à une semaine d’immersion chez ACENSI à Tours,
+                            où j’ai pu collaborer sur un projet concret et découvrir le
+                            fonctionnement d’une équipe technique, ainsi que l’application pratique
+                            des compétences front-end.
+                        </p>
+                        <p>
+                            Créatif et rigoureux, je pratique aussi le montage vidéo et le théâtre
+                            d’improvisation, deux activités qui développent ma réactivité, mon sens
+                            du détail et ma capacité d’adaptation.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- COMPETENCES -->
+            <section id="competences" class="py-12 md:py-16 bg-surface">
+                <div class="max-w-4xl mx-auto px-4">
+                    <h2
+                        class="font-titre text-2xl md:text-3xl font-bold text-encre mb-8 text-center"
+                    >
+                        Mes Compétences
+                    </h2>
+                    <div
+                        class="overflow-x-auto bg-fond border border-encre-douce/15 rounded-carte shadow-sm p-4 md:p-6"
+                    >
+                        <table class="w-full text-left border-collapse">
+                            <caption class="sr-only">
+                                Compétences techniques acquises en formation
+                            </caption>
+                            <thead>
+                                <tr
+                                    class="border-b border-encre-douce/20 font-titre text-encre text-sm md:text-base"
+                                >
+                                    <th scope="col" class="pb-4 font-bold">Technologie</th>
+                                    <th scope="col" class="pb-4 font-bold">Niveau</th>
+                                    <th scope="col" class="pb-4 font-bold">Expérience</th>
+                                </tr>
+                            </thead>
+                            <tbody
+                                class="divide-y divide-encre-douce/10 font-sans text-sm md:text-base"
+                            >
+                                <tr>
+                                    <td class="py-4 font-semibold text-encre">HTML5</td>
+                                    <td class="py-4 text-encre-douce">
+                                        <div class="flex flex-col gap-1">
+                                            <span>Avancé</span>
+                                            <div
+                                                class="w-full bg-surface h-2 rounded-full overflow-hidden max-w-xs"
+                                            >
+                                                <div
+                                                    class="bg-primaire h-full rounded-full"
+                                                    style="width: 80%"
+                                                ></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="py-4 text-encre-douce">6 mois</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-4 font-semibold text-encre">CSS3</td>
+                                    <td class="py-4 text-encre-douce">
+                                        <div class="flex flex-col gap-1">
+                                            <span>Intermédiaire</span>
+                                            <div
+                                                class="w-full bg-surface h-2 rounded-full overflow-hidden max-w-xs"
+                                            >
+                                                <div
+                                                    class="bg-primaire h-full rounded-full"
+                                                    style="width: 65%"
+                                                ></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="py-4 text-encre-douce">6 mois</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- ===== FOOTER ===== -->
+        <footer class="bg-surface border-t border-encre-douce/15 py-8 mt-auto">
+            <div
+                class="max-w-6xl mx-auto px-4 md:px-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left"
+            >
+                <div class="flex flex-col gap-1">
+                    <p class="font-titre font-bold text-encre">© 2026 CRÉTÉ Romain</p>
+                    <p class="font-sans text-sm text-encre-douce">
+                        Concepteur Développeur d'Applications en formation
+                    </p>
+                </div>
+                <div
+                    class="flex items-center justify-center flex-wrap gap-8 font-sans text-sm font-medium"
+                >
+                    <a
+                        href="https://github.com/Romain-CRETE"
+                        target="_blank"
+                        class="text-encre-douce hover:text-primaire transition-colors py-2 px-1"
+                        >GitHub</a
+                    >
+                    <a
+                        href="https://www.linkedin.com/in/romain-cr%C3%A9t%C3%A9"
+                        target="_blank"
+                        class="text-encre-douce hover:text-primaire transition-colors py-2 px-1"
+                        >LinkedIn</a
+                    >
+                    <a
+                        href="mailto:faux_mail@outlook.fr"
+                        class="text-encre-douce hover:text-primaire transition-colors py-2 px-1"
+                        >Email</a
+                    >
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
