@@ -28,3 +28,10 @@ Prérequis : Node.js (LTS) et Git.
     - standard utilisé en entreprise.
     - filtrer l'historique proprement par type d'intervention sans perdre de temps.
     - relie directement chaque commit au numéro de version du projet (`feat` pour une version mineure, `fix` pour un patch de correction).
+
+    ## GitHub Flow
+
+1. **Branchement** : Tout travail commence à partir d'une branche issue de `main` à jour.
+2. **Qualité (QA)** : Validation des scripts de formatage, de lint et de build avant l'envoi.
+3. **Pull Request** : Ouverture d'une PR vers `main` avec le modèle de PR et le lien vers l'issue (`Closes #2`).
+4. **Relecture et Fusion** : Validation et fusion de la PR sur la branche principale.
