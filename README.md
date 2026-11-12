@@ -35,3 +35,7 @@ Prérequis : Node.js (LTS) et Git.
 2. **Qualité (QA)** : Validation des scripts de formatage, de lint et de build avant l'envoi.
 3. **Pull Request** : Ouverture d'une PR vers `main` avec le modèle de PR et le lien vers l'issue (`Closes #2`).
 4. **Relecture et Fusion** : Validation et fusion de la PR sur la branche principale.
+
+## En ligne
+
+https://github.com/romain-crete/ma-page-dev
