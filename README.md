@@ -1,6 +1,6 @@
 # Ma page de développeur
 
-Page de présentation professionnelle de Romain CRÉTÉ, concepteur développeur d'applications en formation : profil, compétences et projets. HTML et Tailwind CSS 4, construite avec Vite.
+Page de présentation professionnelle de Romain CRÉTÉ, concepteur développeur d'applications en formation : profil, compétences et projets. HTML et Tailwind CSS 4, construite avec Vite.Versionnée avec Git et publiée avec GitHub Pages
 
 ## Installation et lancement
 
